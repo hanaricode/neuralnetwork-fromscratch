@@ -16,7 +16,7 @@ print("=" * 40)
 
 net.train(
     training_data=training_data,
-    epochs=10000,
+    epochs=100000,
     mini_batch_size=4,
     eta=1.0,
 )
